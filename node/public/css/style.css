@@ -1,0 +1,108 @@
+body {
+	background-color: rgb(66, 58, 48);
+	padding:0;
+	margin:0;
+}
+
+.container {
+	position:relative;
+	width:800px;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	font-family:sans-serif;
+	font-weight:normal;
+	color:#FFF;
+}
+
+.header {
+	position:relative;
+	height: 50px;
+	background-color: rgb(89, 61, 47);
+	border-bottom:1px solid rgba(255,255,255,0.2);
+}
+
+.header > h1 {
+	position:absolute;
+	margin:0px;
+	padding:0px;
+	font-size:28px;
+	font-weight:normal;
+	top:8px;
+	left:8px;
+}
+
+.controls {
+	position:relative;
+	height:40px;
+	background-color:rgba(100,100,100,0.2);
+}
+
+.controls > a {
+	position:absolute;
+	color:#FFF;
+	text-decoration:none;
+	font-size:12px;
+	background-color:green;
+	padding:5px;
+	top:8px;
+	left:8px;
+}
+
+.controls > a:hover {
+	background-color: rgb(8, 150, 8);
+}
+
+.outputlist {
+	position:relative;
+}
+
+.entity {
+	position:relative;
+	height:40px;
+	border-bottom:1px solid rgba(255,255,255,0.1);
+	background-color: rgba(57, 81, 81, 0.08);
+}
+
+.entity > p,a {
+	position:absolute;
+	font-size:12px;
+	top:13px;
+	margin:0px;
+	font-weight:100;
+}
+
+.serialNo {
+	font-size:12px;
+	left:5px;
+	margin:0px;
+	padding:0px;
+}
+
+.studentName {
+	left:50px;
+}
+
+.course {
+	left:300px;
+}
+
+.viewCard {
+	right:10px;
+	background-color: rgb(22, 138, 173);
+	padding: 6px;
+	width:100px;
+	text-align:center;
+	text-decoration:none;
+	color:#FFF;
+	top: 7px;
+}
+
+.inactive {
+   pointer-events: none;
+   cursor: default;
+   opacity:0.4;
+   
+}

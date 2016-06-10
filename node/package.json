@@ -1,0 +1,19 @@
+{
+  "name": "cardsprinter",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node --harmony-spreadcalls app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deepak Purushotham",
+  "license": "ISC",
+  "dependencies": {
+    "good": "^6.4.0",
+    "good-file": "^5.1.0",
+    "handlebars": "^3.0.3",
+    "hapi": "^10.0.0",
+    "inert": "^3.0.1",
+    "vision": "^3.0.0"
+  }
+}
